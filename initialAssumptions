@@ -1,0 +1,27 @@
+Program description - overview of requirements.
+
+00. Program will do management of machine stock and booking of machines.
+It allows user/administrator to manage (add, remove, modify) machine stock and machines data and their booking.
+Basic version works through terminal, but web or mobile frontend will be implemented in the future releases.
+d
+
+01. Program allows user to add / delete / modify machine.
+02. It allows user to add / delete / modify new customers.
+03. It allows to manage of booking (add / modify / delete)
+04. It allows to show list of machines with their status (on stock, booked, in service)
+05. It implements search on customer and machines lists.
+
+
+
+
+--== Happy path ==--
+1. Create new machine (id, name, model, production date, status)
+2. Add new customer
+3. Book of machine to above customer
+4. Show status of created machine
+5. Adding new customer
+6. Changing customer that books particular machine.
+7. Canceling booking
+8. Removing customer
+9. Removing machine
+10. Listing machines shows 0 machines on stock.
