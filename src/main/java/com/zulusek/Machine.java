@@ -1,6 +1,4 @@
 package com.zulusek;
 
-public record Machine(String name) {
-
-
+public record Machine(String manufacturer, String model, String productionDate) {
 }
